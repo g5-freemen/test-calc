@@ -1,0 +1,13 @@
+.row {
+  display: flex;
+  gap: 4px;
+}
+
+.row * {
+  cursor: pointer;
+}
+
+.label {
+  margin: 1vmin 0 0;
+  text-transform: capitalize;
+}

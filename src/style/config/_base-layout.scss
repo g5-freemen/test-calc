@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Roboto';
+}
+
+input,
+select,
+button,
+a {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  color: #fff;
+  @include blueGradientBG;
+}
+
+.header {
+  margin: 0;
+  height: 8vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  font-size: 4vh;
+  font-style: italic;
+  background-color: $darkerColor;
+}
+
+.wrapper {
+  display: flex;
+  flex: auto;
+  margin-top: 9vh;
+}
+
+.link,
+.link:visited {
+  display: flex;
+  gap: 1vmin;
+  position: absolute;
+  width: fit-content;
+  top: 1vmax;
+  right: 1vmax;
+  padding: 1vmin 2vmin;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 1vmax;
+  color: #fff;
+  text-decoration: none;
+}
+
+.frame {
+  position: relative;
+  margin: 1vmax;
+  flex: 1;
+  padding: $bigPadding;
+  border-style: groove;
+  border-radius: 1vmax;
+}
+
+.frame > p {
+  margin: 6px;
+  font-size: 1.5rem;
+}

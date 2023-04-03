@@ -1,0 +1,13 @@
+@keyframes pulse {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.1;
+  }
+}
+
+button:hover,
+.link:hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}

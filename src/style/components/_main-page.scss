@@ -1,0 +1,31 @@
+.flex {
+  display: flex;
+  flex: auto;
+  gap: 1vmax;
+}
+
+.img {
+  min-height: 10vmax;
+  display: flex;
+  flex: 1;
+  background: no-repeat center;
+  background-size: contain;
+}
+
+.link div {
+  transition: transform 1s;
+  will-change: transform;
+}
+
+.link:hover div {
+  transform: rotateZ(360deg);
+}
+
+.materials {
+  margin: 6px;
+  padding-bottom: 1vmax;
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1vmax;
+}

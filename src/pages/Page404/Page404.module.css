@@ -1,0 +1,42 @@
+.wrapper {
+  min-height: 100vh;
+  padding: 10vmin 0;
+  display: flex;
+  flex: auto;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.sadSmile {
+  font-size: 15vmax;
+}
+
+.bigTxt {
+  margin: 12px 0;
+  font-size: 72px;
+}
+
+.smallTxt {
+  margin: 24px 0;
+  font-size: 20px;
+}
+
+.link,
+.link:visited {
+  padding: 1rem 2rem;
+  width: fit-content;
+  border-radius: 1vmax;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 700;
+  background-color: teal;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+
+.link:hover {
+  box-shadow: 5px 5px 5px grey;
+  transform: translate3d(1px, 0, 16px);
+}
